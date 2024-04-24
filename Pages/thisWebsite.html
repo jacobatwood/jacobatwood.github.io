@@ -4,8 +4,11 @@
     <title> This Website | Jacob Atwood</title>
     <link rel="icon" type="image/x-icon" href="/Images/favicon.ico">
     <link rel="stylesheet" type="text/css" href="/Styles/styles.css">
+    <script src="/PhotoAlbum.js"></script>
+
 </head>
 <body>
+
 
     <center><h1>Jacob Atwood</h1></center>
 
@@ -16,13 +19,15 @@
         <a href="AboutMe.html">About</a>
     </div>
 
-    <div class = indent>
-    <p>
-        That's write this Website is one of my projects. I am using this website to teach my self HTML, CSS, and JavaScript. As I update the website I will post
-        photos here to show the progress I have made.
-    </p>
+    <div class=indent>
+        <p>
+            That's right this website is one of my projects. I am using this website to teach my self HTML, CSS, and JavaScript. As I update the website I will post
+            photos here to show the progress I have made.
+        </p>
     </div>
     <br>
-    <center> <img id="websiteHistory" src="/Images/websiteFirstSnapshot.png" alt="WebsiteSnapshot" width="900"></center>
+    <center><button onclick="nextClick()">Next</button></center>
+    <center><button onclick="previousClick()">Previous</button></center>
+    <center> <img id="Image" src="/Images/websiteFirstSnapshot.png" alt="WebsiteSnapshot" width="900"></center>
 </body>
 </html>
