@@ -1,5 +1,5 @@
 var i = 0;
-let snapshots = ["/Images/websiteFirstSnapshot.png", "/Images/projectPageOriginal.png", "/Images/abutWebsiteOriginal.png", "/Images/firstAlbumVersion.png"];
+let snapshots = ["/Images/websiteFirstSnapshot.png", "/Images/projectPageOriginal.png", "/Images/aboutWebsiteOriginal.png", "/Images/firstAlbumVersion.png"];
 
 function nextClick() {
     if (i < 3) {
